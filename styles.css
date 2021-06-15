@@ -1,0 +1,74 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: black;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+#UI
+{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+#playlist
+{
+    background-color: rgba(0,0,0,.5);
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    list-style: none;
+}
+li a
+{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+#playlist .current-song a
+{
+    color:red;
+}
+img
+{
+    width: 100%;
+}
+.openbtn
+{
+    position: fixed;
+    font-size: 25px;
+    cursor: pointer;
+    background-color:rgba(0,0,0,0);
+    color: white;
+    padding: 15px;
+    border: none;
+}
+.closebtn
+{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    padding: 15px;
+}

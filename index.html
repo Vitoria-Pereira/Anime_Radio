@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" content="width=device-width, inicial-scale=1" name="viewport">
+    <title>Anime Radio</title>
+    <link rel="stylesheet" href="styles.css"></link>
+</head>
+<body>
+    <div id="UI" >
+        <audio controls id="audioPlayer" src="">
+            Sorry, your browser doesn't support HTML5.
+        </audio>
+    </div>
+
+    <i class="openbtn fas fa-bars" onclick=openNav()></i>
+    <ul id="playlist">
+        <i class="closebtn fas fa-times" onclick=closeNav()></i>
+        <li class="current-song"><a href="songs/aot.mp3">Shingeki no Kyojin - Vogel Im Kafig</a></li>
+        <li><a href="songs/demonslayer.mp3">Kimetsu No Yaiba - Wisteria</a></li>
+        <li><a href="songs/howls.mp3">Howl's Moving Castle -  Merry Go Round of Life</a></li>
+        <li><a href="songs/hxh.mp3">Hunter x Hunter (2011) - Hyōri Ittai</a></li>
+        <li><a href="songs/mononoke.mp3">Princess Mononoke - Departure to the West</a></li>
+        <li><a href="songs/sailormoon.mp3">Sailor Moon - Star Locket Melody</a></li>
+        <li><a href="songs/spiritedaway.mp3">Spirited Away - Inochi No Namae</a></li>
+        <li><a href="songs/totoro.mp3">My Neighbour Totoro - Path of The Wind</a></li>
+        <li><a href="songs/violet.mp3">Violet Evergarden - Violet Snow</a></li>
+        <li><a href="songs/apple.mp3">Touhou Project - Bad Apple!</a></li>
+        <li><a href="songs/baka.mp3">Hatsune Miku - Triple Baka!</a></li>
+        <li><a href="songs/ori.mp3">Ori and the Blind Forest - Main Theme</a></li>
+        <li><a href="songs/roses.mp3">Rwby -  Red like Roses Part l</a></li>
+        <li><a href="songs/sett.mp3">League of Legends - Sett - Login Screen Theme</a></li>
+        <li><a href="songs/venti.mp3">Genshin Impact - A Bard's Adventure</a></li>
+        <li><a href="songs/xayahrakan.mp3">League of Legends - Xayah and Rakan - Login Screen Theme</a></li>
+        <li><a href="songs/xiao.mp3">Genshin Impact - Doombane Orchestral</a></li>
+    </ul>
+
+
+    <div id="imgs">
+        <img class="slides" src="imgs/yourname.gif">
+        <img class="slides" src="imgs/ruby.gif">
+        <img class="slides" src="imgs/sett.gif">
+        <img class="slides" src="imgs/totoro.gif">
+        <img class="slides" src="imgs/violet.gif">
+        <img class="slides" src="imgs/howls.gif">
+        <img class="slides" src="imgs/hxh.gif">
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e4ee09d5b6.js" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+    <script>
+        audioPlayer();
+        carousel();
+    </script>
+</body>
+</html>
